@@ -61,15 +61,15 @@ So here is what the initial code will look like. What is all of it doing?
 
 ```
 <nav class="navbar navbar-default">
-<div class="container-fluid">
-<ul class="nav navbar-nav">
-<li role="presentation">Home</li>
-<li role="presentation">Cats</li>
-<li role="presentation">Kittens</li>
-<li role="presentation">Tigers</li>
-<li role="presentation">String</li>
-</ul>
-</div>
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li role="presentation">Home</li>
+      <li role="presentation">Cats</li>
+      <li role="presentation">Kittens</li>
+      <li role="presentation">Tigers</li>
+      <li role="presentation">String</li>
+    </ul>
+  </div>
 </nav>
 ```
 If you refresh your page it still looks pretty messy.
