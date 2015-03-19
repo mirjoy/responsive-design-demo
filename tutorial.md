@@ -33,12 +33,12 @@ Bootstrap does have two different options:
 
 The "container" class has a max width where it will quit expanding and blank space will fill around it. This is usually the best choice, because things start to look wonky when they get too spread out. "container-fluid" does not have a max-width. It will get as wide as the screen it is on.
 
-So let's put in the container class below the body and before the nav and see how it does:
+So let's put in the container class after the nav and before the content and see how it does:
 
 ```
-<body>
-  <div class="container">
-    <nav>
+  </nav>
+<div class="container">
+  <h1>Hello, Cats!</h1>
 ```
 
 Don't forget to close it. You can do this before the Javascript links:
@@ -74,4 +74,10 @@ So here is what the initial code will look like. What is all of it doing?
 ```
 If you refresh your page it still looks pretty messy.
 
-The Bootstrap classes "navbar" and "navbar-default" help style the nav across the top of the website. They have a few different styles besides default. Try playing around with it.
+The Bootstrap classes "navbar" and "navbar-default" help style the nav across the top of the website. They have a few different styles besides default. Try playing around with some others.
+
+Because it's not inside the "container" class for the body, we need to add padding to the navbar as well, so we do that with the "container-fluid." Because we want it to expand just as large as the rest of the page, we use "container-fluid in this instance." If we put it inside the rest of the container, then there would be weird padding around it. Not what you expect in your navbar.
+
+In the ul class, the "nav navbar-nav" horizontally aligns the list and hides those bullet points. Not bad, but not too pretty or functional yet.
+
+
