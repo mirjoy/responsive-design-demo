@@ -16,15 +16,15 @@ This will open up the page in your browser.
 
 It looks pretty sad at the moment, no space to breathe around the edges. Fortunately Bootstrap has a solution.
 
-<pre><code>
+<p><code>
   <div class="container">
-</pre></code>
+</p></code>
 
 The container class will create padding around all of the elements. It also instantiates the use of the grid system, which is one of the most important elements of Bootstrap, so don't forget to leave this part ever.
 
 Bootstrap does have two different options:
 
-<pre><code>
+<p><code>
   <div class="container">
   <div class="container-fluid">
-</pre></code>
+</p></code>
