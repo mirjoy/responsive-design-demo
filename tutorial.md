@@ -11,7 +11,7 @@ On the front page they have the boiler plate HTML you'll need to get started, wh
 In your terminal write:
 
 ```
-open index.html 
+open index.html
 ```
 
 This will open up the page in your browser.
@@ -27,11 +27,11 @@ The container class will create padding around all of the elements. It also inst
 Bootstrap does have two different options:
 
 ```
-  <div class="container">
-  <div class="container-fluid">
+<div class="container">
+<div class="container-fluid">
 ```
 
-The "container" class has a max width where it will quit expanding and blank space will fill around it. This is usually the best choice, because things start to look wonky when they get too spread out. "Container-fluid" does not have a max-width. It will get as wide as the screen it is on.
+The "container" class has a max width where it will quit expanding and blank space will fill around it. This is usually the best choice, because things start to look wonky when they get too spread out. "container-fluid" does not have a max-width. It will get as wide as the screen it is on.
 
 So let's put in the container class below the body and before the nav and see how it does:
 
@@ -44,8 +44,8 @@ So let's put in the container class below the body and before the nav and see ho
 Don't forget to close it. You can do this before the Javascript links:
 
 ```
-    </p\>
-  </div\>
+    </p>
+  </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 ```
-
