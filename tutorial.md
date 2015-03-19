@@ -10,21 +10,17 @@ On the front page they have the boiler plate HTML you'll need to get started, wh
 
 In your terminal write:
 
-<pre><code> open index.html </pre></code>
+<p><code> open index.html </p></code>
 
 This will open up the page in your browser.
 
 It looks pretty sad at the moment, no space to breathe around the edges. Fortunately Bootstrap has a solution.
 
 <p><code>
-  <div class="container">
+  div class="container"
 </p></code>
 
 The container class will create padding around all of the elements. It also instantiates the use of the grid system, which is one of the most important elements of Bootstrap, so don't forget to leave this part ever.
 
 Bootstrap does have two different options:
 
-<p><code>
-  <div class="container">
-  <div class="container-fluid">
-</p></code>
