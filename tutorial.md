@@ -25,6 +25,6 @@ The container class will create padding around all of the elements. It also inst
 Bootstrap does have two different options:
 
 <pre><code>
-<div class="container">
-<div class="container-fluid">
+  <div class="container">
+  <div class="container-fluid">
 </pre></code>
