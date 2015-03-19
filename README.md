@@ -1,2 +1,3 @@
-# responsive-design-demo
-a starter repo for my session on how to use grids/bootstrap
+# Responsive Design Demo
+
+Download this starter repo and then follow along with the tutorial.
