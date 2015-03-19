@@ -14,7 +14,7 @@ In your terminal write:
 open index.html
 ```
 
-This will open up the page in your browser.
+This will open up the page in your browser. You can tell that bootstrap is connected if the text shows up in a sans-serif font.
 
 It looks pretty sad at the moment, no space to breathe around the edges. Fortunately Bootstrap has a solution.
 
@@ -49,3 +49,29 @@ Don't forget to close it. You can do this before the Javascript links:
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 ```
+
+Refresh your index.html. It already looks better!
+
+Let's do something about the navigation. At the moment it is just an unordered list int he HTML. Bootstrap has a lot of default nav classes. If you want to find out about different styles, you can always go to the docs, they're pretty thorough.
+
+
+(If you're curious what the "role" tags are for, and later "aria", they help visually-impaired people navigate your website.)
+
+So here is what the initial code will look like. What is all of it doing?
+
+```
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<ul class="nav navbar-nav">
+<li role="presentation">Home</li>
+<li role="presentation">Cats</li>
+<li role="presentation">Kittens</li>
+<li role="presentation">Tigers</li>
+<li role="presentation">String</li>
+</ul>
+</div>
+</nav>
+```
+If you refresh your page it still looks pretty messy.
+
+The Bootstrap classes "navbar" and "navbar-default" help style the nav across the top of the website. They have a few different styles besides default. Try playing around with it.
