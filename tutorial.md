@@ -80,7 +80,7 @@ Because it's not inside the "container" class for the body, we need to add paddi
 
 In the \<ul\> class, the "nav navbar-nav" horizontally aligns the list and hides those bullet points. Not bad, but not too pretty or functional yet.
 
-The reason all of the words are cramming together is because the CSS is looking for /<a/> tags. So let's add those in.
+The reason all of the words are cramming together is because the CSS is looking for \<a\> tags. So let's add those in.
 
 ```
 <ul class="nav navbar-nav">
