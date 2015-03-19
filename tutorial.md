@@ -95,7 +95,7 @@ The reason all of the words are cramming together is because the CSS is looking 
 It's starting to look pretty good now. I prefer to see my navigation on the right, so let's add some CSS for that. Bootstrap has a handy class, "navbar-right."
 
 ```
-<div class="container-fluid">
-  <ul class="nav navbar-nav navbar-right">
-    <li role="presentation"><a href="#">Home</a></li>
+<ul class="nav navbar-nav navbar-right">
 ```
+
+Try making the screen as small as possible. It's not a terrible view, but we can do better. This is what people will see on mobile phones.
