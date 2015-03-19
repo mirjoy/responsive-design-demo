@@ -44,9 +44,9 @@ So let's put in the container class after the nav and before the content and see
 Don't forget to close it. You can do this before the Javascript links:
 
 ```
-    </p>
-  </div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        </p>
+      </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 ```
 
@@ -90,4 +90,12 @@ The reason all of the words are cramming together is because the CSS is looking 
   <li role="presentation"><a href="#">Tigers</a></li>
   <li role="presentation"><a href="#">String</a></li>
 </ul>
+```
+
+It's starting to look pretty good now. I prefer to see my navigation on the right, so let's add some CSS for that. Bootstrap has a handy class, "navbar-right."
+
+```
+<div class="container-fluid">
+  <ul class="nav navbar-nav navbar-right">
+    <li role="presentation"><a href="#">Home</a></li>
 ```
