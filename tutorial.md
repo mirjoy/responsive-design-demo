@@ -24,10 +24,10 @@ The container class will create padding around all of the elements. It also inst
 
 Bootstrap does have two different options:
 
-<p><code>
+```
   \<div class="container"\>
   \<div class="container-fluid"\>
-</p></code>
+```
 
 The "container" class has a max width where it will quit expanding and blank space will fill around it. This is usually the best choice, because things start to look wonky when they get too spread out. "Container-fluid" does not have a max-width. It will get as wide as the screen it is on.
 
