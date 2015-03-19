@@ -78,6 +78,4 @@ The Bootstrap classes "navbar" and "navbar-default" help style the nav across th
 
 Because it's not inside the "container" class for the body, we need to add padding to the navbar as well, so we do that with the "container-fluid." Because we want it to expand just as large as the rest of the page, we use "container-fluid in this instance." If we put it inside the rest of the container, then there would be weird padding around it. Not what you expect in your navbar.
 
-In the ul class, the "nav navbar-nav" horizontally aligns the list and hides those bullet points. Not bad, but not too pretty or functional yet.
-
-
+In the \<ul\> class, the "nav navbar-nav" horizontally aligns the list and hides those bullet points. Not bad, but not too pretty or functional yet.
