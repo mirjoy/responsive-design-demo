@@ -43,6 +43,5 @@ Don't forget to close it. You can do this before the Javascript links:
 
     \</p\>
   \</div\>
-\<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --\>
 \<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script\>
 
