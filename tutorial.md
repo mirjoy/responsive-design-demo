@@ -41,7 +41,9 @@ So let's put in the container class below the body and before the nav and see ho
 
 Don't forget to close it. You can do this before the Javascript links:
 
+<p><code>
     \</p\>
   \</div\>
 \<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script\>
+</p></code>
 
