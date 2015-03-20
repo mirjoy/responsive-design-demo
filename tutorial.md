@@ -124,14 +124,12 @@ The tag "sr-only" tells people with screen readers what this HTML is doing.
 ```
 You might not see anything if your view is wide, but shrink your browser until it's small and you'll see the little icon in the right hand corner. If you click on it right now, nothing will happen. That's because we're missing one more lines of code.
 
-We need to allow the existing nav to be accessed in the mobile view. Place the line below right above the /<ul/>.
+We need to allow the existing nav to be accessed in the mobile view. Place the line below right above the \<ul\>.
 
 ```
 <div id="navbar" class="collapse navbar-collapse" id="collapse-my-navbar">
   <ul class="nav navbar-nav navbar-right">
 ```
-#COME BACK LATER WITH INTERNET
-
 Try shrinking your browser! It should be working.
 
 We don't want anyone to forget which website they are on, so let's add our website name to the top navbar in a way that will appear on all sizes. I can go right after the closing button tag.
