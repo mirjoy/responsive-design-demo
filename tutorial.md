@@ -103,7 +103,7 @@ Bootstrap has some built in jQuery that will "toggle" the menu up and down. Let'
 
 It's in this little snippet. Any time you see the prefix "data", that is a jQuery method. You don't have to know how it works for now, just what it's doing. 'data-toggle' allows you to hit that little corner on your phone that expands or collapses the navigation.
 
-The 'data target' lets us know what the jQuery is targeting. We'll assign that in a second.
+The 'data target' lets us know what the jQuery is targeting. We've given it the id of 'navbar'.
 
 The class "navbar-header" lets Bootstrap style it.
 
@@ -114,7 +114,7 @@ The tag "sr-only" tells people with screen readers what this HTML is doing.
 ```
 <div class="container">
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-my-navbar" aria-expanded="false" aria-controls="navbar">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -127,10 +127,10 @@ You might not see anything if your view is wide, but shrink your browser until i
 We need to allow the existing nav to be accessed in the mobile view. Place the line below right above the \<ul\>.
 
 ```
-<div id="navbar" class="collapse navbar-collapse" id="collapse-my-navbar">
+<div id="navbar" class="collapse navbar-collapse">
   <ul class="nav navbar-nav navbar-right">
 ```
-Try shrinking your browser! It should be working.
+Try shrinking your browser and clicking on the toggle button! It should be working.
 
 We don't want anyone to forget which website they are on, so let's add our website name to the top navbar in a way that will appear on all sizes. I can go right after the closing button tag.
 
@@ -188,3 +188,54 @@ Let's try adding this div around our first three paragraphs.
 ```
 
 It should appear in three nice columns. Try making your screen smaller, and watch them stack.
+
+Let's make those last two look equally good. We can play around with them a bit. Let's try a different balance. For the first one will use
+
+```
+<div class="col-sm-9">
+```
+
+And for the second one, we'll try:
+
+```
+<div class="col-sm-3">
+```
+
+It looks a little uneven. Let's change them both to:
+
+```
+<div class="col-sm-6">
+```
+
+So now it should look like this:
+
+```
+<div class="col-sm-6">
+  <h3>Adopt a Cat</h3>
+  <p>
+  Hide at bottom of staircase to trip human. The i like big cats and i can not lie. Jump off balcony, onto stranger's head chew foot, yet pelt around the house and up and down stairs chasing phantoms hiss at vacuum cleaner. Meow all night having their mate disturbing sleeping humans. Fall over dead (not really but gets sypathy) stretch. Meow all night having their mate disturbing sleeping humans flop over.
+  </p>
+</div>
+<div class="col-sm-6">
+  <h3>Find a Cat Cafe</h3>
+  <p>
+  Sweet beast chase dog then run away for i like big cats and i can not lie. Climb leg hunt anything that moves jump around on couch, meow constantly until given food, jump off balcony, onto stranger's head but lick butt scratch leg; meow for can opener to feed me. Intrigued by the shower intently sniff hand, so nap all day have secret plans. Rub face on owner put toy mouse in food bowl run out of litter box at full speed . Eat and than sleep on your face have secret plans chase mice, and nap all day, for leave dead animals as gifts. Who's the baby stand in front of the computer screen hack up furballs.
+  </p>
+</div>
+```
+
+Play around with different break points. It's pretty simple to use!
+
+## Adding a Hero Element
+
+We don't have any main focal point when people come to our page. Let's try making "Hello Cats" a bit more of a focus with Bootstrap's Jumbotron class.
+
+```
+<div class="jumbotron">
+  <h1>Hello, Cats!</h1>
+</div>
+```
+
+Our page isn't looking half bad!
+
+## Using Glyphicons
