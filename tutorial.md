@@ -168,22 +168,22 @@ Let's try adding this div around our first three paragraphs.
 
 ```
 <div class="col-sm-4">
-<h3>Cats as Pets</h3>
-<p>
-Lick butt play time, rub face on everything climb leg roll on the floor purring your whiskers off. Chew on cable throwup on your pillow, and chase ball of string yet shake treat bag missing until dinner time stick butt in face. If it fits, i sits claws in your leg, meowing non stop for food claw drapes. Love to play with owner's hair tie chase laser. Loves cheeseburgers sit in box, lick arm hair yet nap all day. Find empty spot in cupboard and sleep all day jump off balcony, onto stranger's head so caticus cuteicus or find empty spot in cupboard and sleep all day. Spread kitty litter all over house poop on grasses, chase dog then run away. Sit by the fire chase imaginary bugs. I am the best jump off balcony, onto stranger's head yet flop over, stretch, so lick butt, so leave fur on owners clothes rub face on owner.
-</p>
+  <h3>Cats as Pets</h3>
+  <p>
+  Lick butt play time, rub face on everything climb leg roll on the floor purring your whiskers off. Chew on cable throwup on your pillow, and chase ball of string yet shake treat bag missing until dinner time stick butt in face. If it fits, i sits claws in your leg, meowing non stop for food claw drapes. Love to play with owner's hair tie chase laser. Loves cheeseburgers sit in box, lick arm hair yet nap all day. Find empty spot in cupboard and sleep all day jump off balcony, onto stranger's head so caticus cuteicus or find empty spot in cupboard and sleep all day. Spread kitty litter all over house poop on grasses, chase dog then run away. Sit by the fire chase imaginary bugs. I am the best jump off balcony, onto stranger's head yet flop over, stretch, so lick butt, so leave fur on owners clothes rub face on owner.
+  </p>
 </div>
 <div class="col-sm-4">
-<h3>Cats as Prey</h3>
-<p>
-Hate dog find something else more interesting. Leave hair everywhere swat at dog, but stand in front of the computer screen has closed eyes but still sees you or then cats take over the world and intrigued by the shower hide from vacuum cleaner. Pelt around the house and up and down stairs chasing phantoms. Attack feet lick arm hair. Hide when guests come over inspect anything brought into the house chew on cable yet scamper climb leg. Attack feet intently sniff hand, or scratch the furniture stretch behind the couch, or then cats take over the world but spit up on light gray carpet instead of adjacent linoleum. Use lap as chair scratch leg; meow for can opener to feed me. Kick up litter all of a sudden cat goes crazy, yet stare at ceiling. Chase red laser dot hunt anything that moves. Shove bum in owner's face like camera lens throwup on your pillow knock over christmas tree make meme, make cute face for hack up furballs meow all night having their mate disturbing sleeping humans chew foot.
-</p>
+  <h3>Cats as Prey</h3>
+  <p>
+  Hate dog find something else more interesting. Leave hair everywhere swat at dog, but stand in front of the computer screen has closed eyes but still sees you or then cats take over the world and intrigued by the shower hide from vacuum cleaner. Pelt around the house and up and down stairs chasing phantoms. Attack feet lick arm hair. Hide when guests come over inspect anything brought into the house chew on cable yet scamper climb leg. Attack feet intently sniff hand, or scratch the furniture stretch behind the couch, or then cats take over the world but spit up on light gray carpet instead of adjacent linoleum. Use lap as chair scratch leg; meow for can opener to feed me. Kick up litter all of a sudden cat goes crazy, yet stare at ceiling. Chase red laser dot hunt anything that moves. Shove bum in owner's face like camera lens throwup on your pillow knock over christmas tree make meme, make cute face for hack up furballs meow all night having their mate disturbing sleeping humans chew foot.
+  </p>
 </div>
 <div class="col-sm-4">
-<h3>Cats as Vermin Control</h3>
-<p>
-Chase mice if it fits, i sits. Sweet beast chase dog then run away for i like big cats and i can not lie. Climb leg hunt anything that moves jump around on couch, meow constantly until given food, jump off balcony, onto stranger's head but lick butt scratch leg; meow for can opener to feed me. Intrigued by the shower intently sniff hand, so nap all day have secret plans. Rub face on owner put toy mouse in food bowl run out of litter box at full speed . Eat and than sleep on your face have secret plans chase mice, and nap all day, for leave dead animals as gifts. Who's the baby stand in front of the computer screen hack up furballs. Chase red laser dot jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed and bathe private parts with tongue then lick owner's face. Missing until dinner time put toy mouse in food bowl run out of litter box at full speed for knock dis off table head butt cant eat out of my own dish run in circles, leave hair everywhere.
-</p>
+  <h3>Cats as Vermin Control</h3>
+  <p>
+  Chase mice if it fits, i sits. Sweet beast chase dog then run away for i like big cats and i can not lie. Climb leg hunt anything that moves jump around on couch, meow constantly until given food, jump off balcony, onto stranger's head but lick butt scratch leg; meow for can opener to feed me. Intrigued by the shower intently sniff hand, so nap all day have secret plans. Rub face on owner put toy mouse in food bowl run out of litter box at full speed . Eat and than sleep on your face have secret plans chase mice, and nap all day, for leave dead animals as gifts. Who's the baby stand in front of the computer screen hack up furballs. Chase red laser dot jump launch to pounce upon little yarn mouse, bare fangs at toy run hide litter box until treats are fed and bathe private parts with tongue then lick owner's face. Missing until dinner time put toy mouse in food bowl run out of litter box at full speed for knock dis off table head butt cant eat out of my own dish run in circles, leave hair everywhere.
+  </p>
 </div>
 ```
 
