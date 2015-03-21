@@ -246,20 +246,4 @@ Bootstrap has a whole library of scalable icons available for free use. Let's tr
 <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
 ```
 
-You can also use a glyphicon in your design.
 
-Let's put this above our first \<h3\>
-
-You can make them larger or smaller by increasing the font size. Let's do that with some custom css. Go to your terminal:
-
-```
-touch css/custom.css
-```
-
-
-
-```
-  <span class="glyphicon glyphicon-music">
-  </span>
-</button>
-```
