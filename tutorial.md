@@ -246,4 +246,6 @@ Bootstrap has a whole library of scalable icons available for free use. Let's tr
 <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
 ```
 
+You have a basic, mobile responsive front page. In the next tutorial we'll work on customizing it.
+
 
