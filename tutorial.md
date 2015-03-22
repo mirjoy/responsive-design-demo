@@ -101,9 +101,12 @@ Try making the screen as small as possible. This is what people will see on mobi
 
 Bootstrap has some built in jQuery that will "toggle" the menu up and down. Let's add that in.
 
-It's in this little snippet. Any time you see the prefix "data", that is a jQuery method. You don't have to know how it works for now, just what it's doing. 'data-toggle' allows you to hit that little corner on your phone that expands or collapses the navigation.
+It's in this little snippet. 
 
-The 'data target' lets us know what the jQuery is targeting. We've given it the id of 'navbar'.
+```
+data-toggle="collapse" data-target="#navbar"
+```
+Any time you see the prefix "data", that is a jQuery method. You don't have to know how it works for now, just what it's doing. 'data-toggle' allows you to hit that little corner on your phone that expands or collapses the navigation. The 'data target' lets us know what the jQuery is targeting. We've given it the id of 'navbar'.
 
 The class "navbar-header" lets Bootstrap style it.
 
